@@ -6,11 +6,12 @@
                                 <title>Snippet - BBBootstrap</title>
                                 <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
                                 <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
-                                <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+                                <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
+                                </script>
                                 <style> @import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
 
  body {
-     background-color: #D32F2F;
+     background-color: #fd144e;
      font-family: 'Calibri', sans-serif !important
  }
 
@@ -19,7 +20,7 @@
  }
 
  .container {
-     margin-top: 200px
+     margin-top: 50px
  }
 
  .card {
@@ -50,7 +51,10 @@
  p {
      font-size: 14px
  }
-
+ .center {
+  text-align: center;
+  font-size: 50px;
+}
  h4 {
      margin-top: 18px
  }
@@ -80,9 +84,16 @@
  }</style>
                                 </head>
                                 <body oncontextmenu='return false' class='snippet-body'>
+                                    <div>
+                                        <img align="right" src="myimage.png">
+                                    </div>
+                                    <div class="center">
+                                        <p style="font-size: 50px;padding-left: 300px;padding-top: 80px;">Welcome to Mentorship Results</p>
+                                        <p style="font-size: 50px;">Are you excited for results??</p>
+                                    </div>
                                  <div class="container d-flex justify-content-center">
      <div class="row">
-         <div class="col-md-6"> <button type="button" class="btn btn-lg btn-warning" data-toggle="modal" data-target="#myModal">Click to Open</button> </div>
+         <div class="col-md-6"> <button type="button" class="btn btn-lg btn-warning" data-toggle="modal" data-target="#myModal"style="width: 124px;">Click to Know</button> </div>
      </div>
  </div>
  <div class="modal fade" id="myModal" role="dialog">
@@ -91,12 +102,18 @@
              <div class="text-right cross"> <i class="fa fa-times"></i> </div>
              <div class="card-body text-center"> <img src="https://img.icons8.com/bubbles/200/000000/trophy.png">
                  <h4>CONGRATULATIONS!</h4>
-                 <p>You have been selected as mentor for 2021-2022.</p> <button class="btn btn-out btn-square continue">CONTINUE</button>
+                 <p>You have been selected as mentor for 2021-2022.</p> <button type="button" onclick="myFunction">Click for more surprises</button>
              </div>
          </div>
      </div>
  </div>
                                 <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
                                 <script type='text/javascript'></script>
+                                <script>
+                                function myFunction() 
+                                {
+                                    window.location.href = "https://chat.whatsapp.com/KUcXXXOC6AS4X9sR33DYPs";
+                                }
+                                </script>
                                 </body>
                             </html>
